@@ -1,0 +1,17 @@
+header{
+    background-color: aquamarine;
+
+}
+h1{
+    font-size: 100px;
+}
+p{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: #ccc;
+}
+a{
+    text-decoration: none;
+}
