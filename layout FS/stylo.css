@@ -1,0 +1,21 @@
+    section {
+        text-align: 10px;
+        
+            width: 500px; /* Defina a largura desejada */
+            margin: 0 auto;
+    
+        
+    }
+    nav{
+        text-align: center;
+        
+        width: 400px; /* Defina a largura desejada */
+        margin: 0 auto;
+
+    }
+    div{
+        text-align: 10px;
+        
+            width: 200px; /* Defina a largura desejada */
+            margin: 0 auto;
+    }
