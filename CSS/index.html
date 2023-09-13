@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Primeiros passos no CSS</title>
+
+    <style>
+        /* Seletor é o nome ou id de uma <tag>*/
+            h4 { 
+                color: blue;
+                background: yellow;
+                border: 5px solid black;
+
+            }
+            section>p{
+                text-align: center;
+                font-size: 1.5rem;
+                border: 3px solid white;
+                font-weight: bold;
+                background: red;
+            }
+            /* nível de espercificação*/
+    </style>
+</head>
+<body style="background-color: rgb(18, 0, 34); font-style: italic; font-size: calc(234);">
+    <h1>CSS - Browser - Herança 5 lugar</h1>
+    <h2>CSS User-Style - Herança 4 lugar</h2>
+    <h3>CSS - External - Herança 3 lugar</h3>
+    <h4>CSS - embedded - Herança 2 lugar</h4>
+    <h5 style="color: red; font-size: 1.5rem;"> CSS - inline - Herança 1 lugar</h5>
+
+    <p style="text-align: right; color: aqua;">Esse paragrafo está possuido pelo estilo inline</p>
+    <p>esse paragrafo não</p>
+
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi est minima iure quisquam maxime
+         in nobis sit, mollitia expedita libero, iste nam aperiam atque ad ratione nesciunt iusto deleniti dolor!</p>
+    </section>
+    <ul>
+        <li>Browser</li>
+        <li style="font-size: 25px; color: yellowgreen;">inline</li>
+        <li><a href="#">Chama</a></li>
+    </ul>
+    <a href="#">Embedded</a> <br>
+    <a href="#">um A perdido</a>
+    <p id="escolhido"> Esse paragrafo é o escolhido</p>
+    <p>Esse já não ele é normalzinho</p>
+
+    <footer> By Fabrício</footer>
+    
+</body>
+</html>

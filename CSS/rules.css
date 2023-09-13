@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    /*  Seletor universal todas as regras desse escopo são aplicados a
+    todos os elementos */
+}
+
+body{
+   
+    background-color: #0c2c42;
+}
+header{
+    width: 80%; /* Largura */
+    height: 20vh; /* Altura */
+    margin-left: 10%;
+    /* Valor Espessura, TipoTraço,Corlinha */
+    border: 1px solid rgb(20, 200, 50);
+    margin-top: 10px;
+
+    /* Alinhamento (Interno) do corLiner */
+    display: flex;
+    justify-content: center;/* Alinhamentohorizontal */
+    align-items: center; /* Alinhamento vertical */
+    background: rgb(3, 5, 39);
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+ section{
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-shadow: 1px 0.5px #00b95d;
+ }
+
+ section.usar{
+    background-color: #01333b;
+    margin-bottom: 15px;
+    text-shadow: 1px 0.5px #00572b;
+ }
+
+ section.usar h2{
+    background-color: #fff;
+    text-shadow: 2px 1px #00ff80
+                2.5px 1.5px 40px #000000;  
+ }
+ section.usar img{
+    height: 200px;
+    margin-bottom: 15px;
+    border: 10px double #000000;
+    margin-top: 10px;
+
+ }
+ section.usar p{
+    letter-spacing: 0.1rem;
+   
+ }
+ section.font{
+    background-color: rgb(0, 71, 129);
+    font-weight: 300px;
+    line-height: 27px;
+ }
+ section.font img{
+    margin-top: 14px;
+    border: 10px double #000000;
+ }
+section.font p{
+    text-align: justify;
+}
+section.font ul{
+    text-align: justify;
+}
+ section.text{
+    background-color: #0068bd;
+ }
+ section.color{
+    background-color: #00b7ff;
+ }
+ span{
+    background: aliceblue;
+    color: red;
+    padding: 0.5px;
+    font-family: monospace;
+    font-size: 0.8rem;
+ }

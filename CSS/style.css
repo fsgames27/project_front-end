@@ -1,0 +1,55 @@
+h3{
+    /*altura*/
+    height: 50px;
+
+    /*Largura*/
+    width: 100%;
+
+    /*Cor do texto*/
+    color: black;
+
+    /*Plano de fundo*/
+    background: #f3f3;
+
+    /*Alinhamento do texto*/
+    text-align: center;
+    
+}
+
+a{
+    /*Tirar a linha*/
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(255, 0, 0);
+}
+    ul li a{
+        text-shadow: 2px 3px rgb(255, 187, 0),
+                    -4px -6px rgb(255, 187, 0);
+    }
+
+    p#escolhido {
+        background-color: blue;
+        border: 3px solid whitesmoke;
+        text-align: center;
+        /*Espaçamento entre letras*/
+        letter-spacing: 3px;
+        /*estilo do texto*/
+        text-transform: uppercase;
+
+        
+    }
+    footer{
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        font-size: 22px;
+         /*Espessura da letra*/
+         font-weight: 700;
+          /*Tipo Da Fonte*/
+          font-family: sans-serif;
+          color: aliceblue;
+          border: 5px rgba(255, 0, 0, 0.2) ;
+          background: #000;
+           
+
+    }
