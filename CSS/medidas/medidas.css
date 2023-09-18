@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+body{
+    font-style: 10px;
+}
+
+section#Primeira{
+    background-color: burlywood;
+}
+.Primeiro_bloco{
+    font-size: 0.5em;
+    background-color: palevioletred;
+}
+.segundo_bloco{
+    font-size: 0.75em;
+}
+
+.Terceiro_bloco{
+    font-size: 1em;
+    background: azure;
+}
+
+.Quarto_bloco{
+    font-size: 1.25em;
+    background-color: aliceblue;
+}
+
+.quinto_bloco{
+    font-size: 1.50em;
+    background-color: aquamarine;
+}
+
+.Sexto_bloco{
+    font-size: 1.75em;
+    background-color: aqua;
+}
+
