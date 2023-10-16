@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h3>Informacões</h3>]
+    </header>
+    <main>
+        <div class="nome"></div>
+        <div class="idade"></div>
+        <div class="signo"></div>
+        <div class="contatos"></div>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </main>
+    <script>
+        var Receber_nome = prompt('Qual é o seu nome?'); 
+        var nome = document.querySelector('div.nome');
+        nome.innerHTML = 'seja bem vindo ' + Receber_nome;
+
+        var Receber_idade = prompt('Qual é a sua idade?'); 
+        var idade = document.querySelector('div.idade');
+        idade.innerHTML = 'Voçê já tem ' + Receber_idade;
+
+        var Receber_signo = prompt('Qual é o seu signo?'); 
+        var signo = document.querySelector('div.signo');
+        signo.innerHTML =  Receber_signo + ' Que Signo maneiro';
+        
+    </script>
+</body>
+</html>
