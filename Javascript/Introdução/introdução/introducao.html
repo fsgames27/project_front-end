@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JavaScripit</title>
+</head>
+<body>
+    <h1>Salve JavaScript</h1>
+    <p>Esse parágrafo foi inserido via Html</p>
+    <span class="rosa">Nome do user:</span>
+
+    <script>
+        /*Função nativa de subir alerta*/
+        alert('Pergunta do Milhão')
+        alert('Valendo 1 Milhão')
+        
+        /*Função nativa de coletar dados*/
+        prompt('complete os meme: Cara de...');
+        prompt('complete os meme:tá achando que eu sou oq.....');
+
+        /*Função nativa de Confirmação*/
+        confirm('Errrooou')
+
+        /* Declarando uma variável (Caixinha)*/
+        var nome;
+        /*associando uma função a uma variavel*/
+        nome = prompt('Novamente digite seu nome')
+
+        var boxRosa = document.querySelector('.rosa');
+        boxRosa.innerHTML = 'Seja bem vindo(a) ' + nome ;
+    </script>
+</body>
+</html>
